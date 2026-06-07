@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+
+.app-shell {
+  min-height: 100vh;
+}
+
+.hero-band {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 196, 107, 0.35), transparent 40%),
+    radial-gradient(circle at 85% 15%, rgba(240, 128, 128, 0.3), transparent 42%),
+    linear-gradient(135deg, #0f172a, #1f2937 55%, #334155);
+  color: #f8fafc;
+}
+
+.logo-mark {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.74rem;
+  font-weight: 700;
+  color: #fde68a;
+}
+
+.hero-copy {
+  color: #dbeafe;
+  font-size: 0.96rem;
+}
+
+.octofit-nav {
+  gap: 0.5rem;
+}
+
+.octofit-nav .nav-link {
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  border-radius: 999px;
+  padding: 0.42rem 0.9rem;
+  font-weight: 700;
+}
+
+.octofit-nav .nav-link.active {
+  background: #0f172a;
+  color: #f8fafc;
+  border-color: #0f172a;
+}
+
+.panel {
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+.workout-card {
+  background: linear-gradient(180deg, #fffaf2 0%, #ffffff 100%);
+  border-color: #f1d2a6 !important;
+}
